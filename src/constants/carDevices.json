@@ -1,0 +1,84 @@
+{
+    "CHILD_SEAT": {
+      "label": "Детское кресло",
+      "checked": false,
+      "data": {
+        "name": "CHILD_SEAT",
+        "dailyPrice": null,
+        "wholeRentPrice": null
+      }
+    },
+    "NAVIGATOR": {
+      "label": "Навигатор",
+      "checked": false,
+      "data": {
+        "name": "NAVIGATOR",
+        "dailyPrice": null,
+        "wholeRentPrice": null
+      }
+    },
+    "REGISTRATOR": {
+      "label": "Регистратор",
+      "checked": false,
+      "data": {
+        "name": "REGISTRATOR",
+        "dailyPrice": null,
+        "wholeRentPrice": null
+      }
+    },
+    "RADAR_DETECTOR": {
+      "label": "Антирадар",
+      "checked": false,
+      "data": {
+        "name": "RADAR_DETECTOR",
+        "dailyPrice": null,
+        "wholeRentPrice": null
+      }
+    },
+    "FRIDGE": {
+      "label": "Холодильник",
+      "checked": false,
+      "data": {
+        "name": "FRIDGE",
+        "dailyPrice": null,
+        "wholeRentPrice": null
+      }
+    },
+    "ROOF_RACK": {
+      "label": "Багажник на крыше",
+      "checked": false,
+      "data": {
+        "name": "ROOF_RACK",
+        "dailyPrice": null,
+        "wholeRentPrice": null
+      }
+    },
+    "BIKE_RACK": {
+      "label": "Крепление для велосипеда",
+      "checked": false,
+      "data": {
+        "name": "BIKE_RACK",
+        "dailyPrice": null,
+        "wholeRentPrice": null
+      }
+    },
+    "SKIING_RACK": {
+      "label": "Крепление для лыж",
+      "checked": false,
+      "data": {
+        "name": "SKIING_RACK",
+        "dailyPrice": null,
+        "wholeRentPrice": null
+      }
+    },
+    "SNOWBOARD_RACK": {
+      "label": "Крепление для сноуборда",
+      "checked": false,
+      "data": {
+        "name": "SNOWBOARD_RACK",
+        "dailyPrice": null,
+        "wholeRentPrice": null
+      }
+    }
+  }
+  

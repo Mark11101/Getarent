@@ -1,0 +1,15 @@
+{
+    "REAR_WHEEL": {
+        "value": "REAR_WHEEL",
+        "label": "Задний привод"
+    },
+    "FRONT_WHEEL": {
+        "value": "FRONT_WHEEL",
+        "label": "Передний привод"
+    },
+    "FOUR_WHEEL": {
+        "value": "FOUR_WHEEL",
+        "label": "Полный привод"
+    }
+  }
+  

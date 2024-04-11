@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "135883854627",
+    "project_id": "getarent-cda17",
+    "storage_bucket": "getarent-cda17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135883854627:android:61a68c86f17ee4cb0a3296",
+        "android_client_info": {
+          "package_name": "ru.getarent.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135883854627-mkbrqu57rddj3ah1b6t7cm78fqtfk089.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2flGfYBNe1REVYD9-T2seuAVi-J3Mqc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135883854627-mkbrqu57rddj3ah1b6t7cm78fqtfk089.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "135883854627-emre5puohg5f62ua1bu91sa7sc0r2tot.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ru.getarent.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

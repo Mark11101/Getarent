@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA02wM3uV4GwwfY4zvdprjKAd58TU92TAo</string>
+	<key>BUNDLE_ID</key>
+	<string>ru.getarent.app</string>
+	<key>CLIENT_ID</key>
+	<string>135883854627-emre5puohg5f62ua1bu91sa7sc0r2tot.apps.googleusercontent.com</string>
+	<key>GCM_SENDER_ID</key>
+	<string>135883854627</string>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:135883854627:ios:58c8829b346851200a3296</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>PROJECT_ID</key>
+	<string>getarent-cda17</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.135883854627-emre5puohg5f62ua1bu91sa7sc0r2tot</string>
+	<key>STORAGE_BUCKET</key>
+	<string>getarent-cda17.appspot.com</string>
+</dict>
+</plist>

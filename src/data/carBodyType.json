@@ -1,0 +1,14 @@
+{
+  "SEDAN": {"value": "SEDAN", "label": "Седан"},
+  "HATCHBACK": {"value": "HATCHBACK", "label": "Хэтчбэк"},
+  "CABRIOLET": {"value": "CABRIOLET", "label": "Кабриолет"},
+  "COUPE": {"value": "COUPE", "label": "Купе"},
+  "SUV": {"value": "SUV", "label": "Внедорожник"},
+  "MINIVAN": {"value": "MINIVAN", "label": "Минивэн"},
+  "PICKUP": {"value": "PICKUP", "label": "Пикап"},
+  "CROSSOVER": {"value": "CROSSOVER", "label": "Кроссовер"},
+  "LIFTBACK": {"value": "LIFTBACK", "label": "Лифтбек"},
+  "STATIONWAGON": {"value": "STATIONWAGON", "label": "Универсал"},
+  "MINIBUS": {"value": "MINIBUS", "label": "Микроавтобус"},
+  "LONGVAN": {"value": "LONGVAN", "label": "Грузопассажирский"}
+}

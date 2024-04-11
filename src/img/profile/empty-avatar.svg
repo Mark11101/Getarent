@@ -1,0 +1,22 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 3902">
+<g clip-path="url(#clip0_8742_10398)">
+<rect width="48" height="48" rx="24" fill="#DBE3EF"/>
+<g id="Group 3191">
+<g id="Mask group">
+<path id="Rectangle 882" d="M16.6172 11.2554H24.5906C29.0089 11.2554 32.5906 14.8371 32.5906 19.2554V27.2288H24.6172C20.1989 27.2288 16.6172 23.6471 16.6172 19.2288V11.2554Z" fill="url(#paint0_linear_8742_10398)"/>
+<path id="Rectangle 883" d="M5 40C5 35.5817 8.58172 32 13 32H36C40.4183 32 44 35.5817 44 40V52.7447H5V40Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_8742_10398" x1="29.064" y1="16.649" x2="16.9149" y2="27.393" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#DBE3EF"/>
+</linearGradient>
+<clipPath id="clip0_8742_10398">
+<rect width="48" height="48" rx="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

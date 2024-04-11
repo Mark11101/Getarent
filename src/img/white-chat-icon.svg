@@ -1,0 +1,19 @@
+<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 3319" clip-path="url(#clip0_7498_456)">
+<path id="Rectangle 883" d="M14.6934 7.93164L20.4779 13.7162L20.498 20L11.6186 11.0064L14.6934 7.93164Z" fill="white"/>
+<g id="Mask group">
+<path id="Rectangle 882" d="M0.5 0H15.5C18.2614 0 20.5 2.23858 20.5 5V17H5.5C2.73858 17 0.5 14.7614 0.5 12V0Z" fill="white"/>
+<mask id="mask0_7498_456" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2" y="9" width="15" height="5">
+<rect id="Rectangle 884" x="2.5" y="9" width="14" height="5" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_7498_456)">
+<circle id="Ellipse 482" cx="10.5" cy="8" r="5" fill="#222222"/>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_7498_456">
+<rect width="20" height="20" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg>

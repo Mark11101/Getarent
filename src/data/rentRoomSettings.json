@@ -1,0 +1,232 @@
+{
+  "GUEST": {
+    "AWAITS_INITIAL_PAYMENT": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": false,
+      "hostInfo": false,
+      "contract": false,
+      "help": false
+    },
+    "AWAITS_UPDATE_PAYMENT": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": false,
+      "hostInfo": false,
+      "contract": false,
+      "help": false
+    },
+    "AWAITS_GUEST_SCORING_COMPLETION": {
+      "beginRentButton": false,
+      "cancelRentButton": true,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": true,
+      "hostInfo": false,
+      "contract": false,
+      "help": true
+    },
+    "AWAITS_HOST_APPROVAL": {
+      "beginRentButton": false,
+      "cancelRentButton": true,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": true,
+      "hostInfo": false,
+      "contract": false,
+      "help": true
+    },
+    "APPROVED_BY_HOST": {
+      "beginRentButton": true,
+      "cancelRentButton": true,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": true,
+      "hostInfo": false,
+      "contract": true,
+      "help": true
+    },
+    "IN_PROGRESS": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": true,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "usageRestrictions": true,
+      "guestInfo": true,
+      "hostInfo": false,
+      "contract": true,
+      "help": true
+    },
+    "FINISHED": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "damageCompensateButton": false,
+      "guestInfo": true,
+      "hostInfo": false,
+      "contract": true,
+      "help": true
+    },
+    "DECLINED_AUTOMATICALLY": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": false,
+      "hostInfo": false,
+      "contract": false,
+      "help": false
+    },
+    "DECLINED_BY_HOST": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "usageRestrictions": false,
+      "guestInfo": true,
+      "hostInfo": false,
+      "contract": false,
+      "help": true
+    },
+    "DECLINED_BY_GUEST": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": true,
+      "hostInfo": false,
+      "contract": false,
+      "help": true
+    }
+  },
+  "HOST": {
+    "AWAITS_INITIAL_PAYMENT": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "usageRestrictions": false,
+      "guestInfo": false,
+      "hostInfo": false,
+      "contract": false,
+      "help": false
+    },
+    "AWAITS_UPDATE_PAYMENT": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": false,
+      "hostInfo": false,
+      "contract": false,
+      "help": false
+    },
+    "AWAITS_GUEST_SCORING_COMPLETION": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": false,
+      "hostInfo": true,
+      "contract": false,
+      "help": true
+    },
+    "AWAITS_HOST_APPROVAL": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": true,
+      "rejectRentButton": true,
+      "guestInfo": false,
+      "hostInfo": true,
+      "contract": false,
+      "help": true
+    },
+    "APPROVED_BY_HOST": {
+      "beginRentButton": true,
+      "cancelRentButton": true,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": false,
+      "hostInfo": true,
+      "contract": false,
+      "help": true
+    },
+    "IN_PROGRESS": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": true,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "usageRestrictions": false,
+      "guestInfo": false,
+      "hostInfo": true,
+      "contract": false,
+      "help": true
+    },
+    "FINISHED": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "damageCompensateButton": true,
+      "guestInfo": false,
+      "hostInfo": true,
+      "contract": false,
+      "help": true
+    },
+    "DECLINED_AUTOMATICALLY": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": false,
+      "hostInfo": true,
+      "contract": false,
+      "help": true
+    },
+    "DECLINED_BY_HOST": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": false,
+      "hostInfo": true,
+      "contract": false,
+      "help": true
+    },
+    "DECLINED_BY_GUEST": {
+      "beginRentButton": false,
+      "cancelRentButton": false,
+      "finishRentButton": false,
+      "approveRentButton": false,
+      "rejectRentButton": false,
+      "guestInfo": false,
+      "hostInfo": true,
+      "contract": false,
+      "help": true
+    }
+  }
+}

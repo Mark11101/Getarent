@@ -1,0 +1,433 @@
+import { StyleSheet, Dimensions } from "react-native";
+
+import theme from "theme";
+
+const WIDTH = Dimensions.get('window').width;
+
+export default StyleSheet.create({
+    container: {
+        flex: 1,
+        position: 'relative',
+        backgroundColor: theme.colors.white,
+        paddingTop: 8,
+        overflow: 'hidden',
+    },
+    row: {
+        flexDirection: 'row',
+    },
+    banner: {
+        flex: 1,
+        left: 8,
+        width: '96%',
+        borderRadius: 20,
+        overflow: 'hidden',
+        position: 'absolute',
+        marginTop: 50,
+    },
+    bannerContent: {
+        position: 'absolute',
+        width: '100%',
+        left: 0,
+        bottom: 0,
+        padding: 24,
+    },
+    bannerTitleBlock: {
+        marginBottom: 10,
+    },
+    bannerText: {
+        fontFamily: 'DelaGothicOne-Regular',
+        color: theme.colors.white,
+        fontSize: 27,
+        lineHeight: 36,
+        transform: [{ scaleX: -1 }],
+    },
+    bannerSubText: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 14,
+        lineHeight: 22,
+        color: theme.colors.white,
+        marginBottom: 10,
+        transform: [{ scaleX: -1 }],
+    },
+    bannerBtn: {
+        height: 38,
+        width: '75%',
+        borderRadius: 30,
+        transform: [{ scaleX: -1 }],
+    },
+    bannerBtnText: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 14,
+        lineHeight: 20,
+        color: theme.colors.white,
+    },
+    scrollView: {
+        
+    },
+    activeUsersCount: {
+        fontFamily: 'Inter-Medium',
+        fontSize: theme.normalize(87),
+        lineHeight: 90,
+        color: theme.colors.lightCyan,
+        paddingTop: 8,
+        textAlign: 'center',
+        zIndex: 1000,
+    },
+    activeUsersPlus: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 36,
+        lineHeight: 28.8,
+        color: theme.colors.lightCyan,
+        position: 'absolute',
+        right: 21 - (428 / WIDTH),
+        top: -15,
+    },
+    firstAvatar: {
+        position: 'absolute',
+        top: -27,
+        zIndex: 500,
+    },
+    secondAvatar: {
+        position: 'absolute',
+        right: 0,
+        top: 50,
+        zIndex: 1500,
+    },
+    activeUsers: {
+        flexDirection: 'row',
+        paddingHorizontal: 24,
+        marginBottom: 40,
+    },
+    activeUsersIcon: {
+        marginRight: 8,
+    },
+    activeUsersText: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 16,
+        lineHeight: 24,
+        color: theme.colors.lightCyan,
+    },
+    header: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 16,
+        lineHeight: 22,
+        color: theme.colors.black,
+        paddingHorizontal: 16,
+        marginBottom: 10,
+    },
+    panel: {
+        padding: 10,
+        borderRadius: 16,
+        backgroundColor: '#F5F5F7',
+    },
+    videos: {
+        marginBottom: 24,
+    },
+    roundVideoBtn: {
+        width: 130,
+        height: 130,
+        borderRadius: 100,
+        overflow: 'hidden',
+        marginBottom: 10,
+    },
+    fullPanelVideo: {
+        width: 150,
+        height: 215,
+        borderRadius: 16,
+        marginBottom: 0,
+        zIndex: 1000,
+    },
+    roundVideo: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        bottom: 0,
+        right: 0,
+    },
+    playBtn: {
+        position: 'absolute',
+        top: -35,
+        left: 0,
+        bottom: 0,
+        right: 0,
+        justifyContent: 'center',
+        alignItems: 'center',
+        zIndex: 1000,
+    },
+    rating: {
+        position: 'absolute',
+        right: 20,
+        top: 10,
+        borderRadius: 8,
+        backgroundColor: '#F5F5F7',
+        paddingHorizontal: 4,
+        paddingVertical: 2,
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    ratingNumber: {
+        fontFamily: 'Inter-Bold',
+        fontSize: 10,
+        lineHeight: 14,
+        color: theme.colors.black,
+        marginRight: 4,
+    },
+    videoText: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 12,
+        lineHeight: 18,
+        color: theme.colors.black,
+    },
+    videoSuperHost: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    videoSuperhostText: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 12,
+        lineHeight: 18,
+        color: '#878F9B',
+    },
+    videoUserInfoAbsolute: {
+        position: 'absolute',
+        bottom: 10,
+        left: 10,
+        zIndex: 1500,
+    },
+    videoPanelGradient: {
+        width: 150, 
+        height: 215, 
+        position: 'absolute', 
+        zIndex: 1000,
+    },
+    hosting: {
+        width: '100%',
+        padding: 16,
+        marginBottom: 24,
+    },
+    hostingHeaderText: {
+        fontFamily: 'DelaGothicOne-Regular',
+        fontSize: theme.normalize(25),
+        lineHeight: 30,
+        color: theme.colors.black,
+    },
+    hostingText: {
+        fontFamily: 'Inter-Regular',
+        fontSize: theme.normalize(14),
+        lineHeight: 22,
+        color: theme.colors.black,
+        width: '71%',
+        paddingRight: 16,
+    },
+    hostingWhitePanel: {
+        padding: 16,
+        borderRadius: 20,
+        backgroundColor: theme.colors.white,
+        justifyContent: 'space-between',
+        width: theme.normalize(100),
+        height: 150,
+    },
+    hostingWhitePanelPercent: {
+        fontFamily: 'Inter-Regular',
+        fontSize: theme.normalize(30),
+        lineHeight: 22,
+        color: theme.colors.black,
+        paddingTop: 18,
+    },
+    hostingWhitePanelText: {
+        fontFamily: 'Inter-Regular',
+        fontSize: theme.normalize(12),
+        lineHeight: 18,
+        color: theme.colors.black,
+        maxWidth: '100%',
+    },
+    hostingBottomCount: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 8,
+    },
+    hostingBottomCountIcon: {
+        marginRight: 8,
+        width: theme.normalize(26)
+    },
+    hostingBottomCountNumber: {
+        fontFamily: 'Inter-Regular',
+        fontSize: theme.normalize(28),
+        lineHeight: 24,
+        color: theme.colors.black,
+        paddingTop: 11,
+    },
+    hostingBottomCountLabel: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 12,
+        lineHeight: 18,
+        color: theme.colors.black,
+    },
+    headerWithArrow: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginBottom: 6,
+    },
+    whereToStartPanel: {
+        marginRight: 8,
+        padding: 0,
+        width: 120, 
+        height: 122,
+        overflow: 'hidden',
+    },
+    whereToStartText: {
+        fontFamily: 'Inter-Medium',
+        fontSize: 12,
+        lineHeight: 18,
+        color: theme.colors.black,
+        padding: 8,
+    },
+    makeMoreMoneyText: {
+        fontFamily: 'Inter-Medium',
+        fontSize: 14,
+        lineHeight: 20,
+        color: theme.colors.white,
+        position: 'absolute',
+        bottom: 8,
+        left: 8,
+        maxWidth: '90%'
+    },
+    makeMoreMoneyPanel: {
+        width: 150, 
+        height: 220,
+        marginRight: 8,
+        borderRadius: 20,
+        overflow: 'hidden',
+    },
+    smallImage: {
+        width: 120,
+        height: 70,
+    },
+    tallImage: {
+        position: 'absolute',
+        width: 150,
+        height: 220,
+    },
+    review: {
+        borderRadius: 16,
+        backgroundColor: theme.colors.white,
+        padding: 16,
+        maxWidth: 225,
+        height: 268,
+        alignSelf: 'flex-start',
+        marginRight: 8,
+    },
+    reviewStar: {
+        marginRight: 5,
+    },
+    reviewText: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 12,
+        lineHeight: 18,
+        color: theme.colors.black,
+    },
+    divider: {
+        height: 1,
+        backgroundColor: '#DBE3EF',
+        marginBottom: 16,
+    },
+    faqItem: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 16,
+        paddingRight: 10,
+    },
+    faqText: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 14,
+        lineHeight: 20,
+        color: theme.colors.black,
+    },
+    faqIcon: {
+        borderRadius: 7,
+        marginRight: 10,
+    },
+    reviewsModal: {
+        paddingHorizontal: 8,
+        paddingVertical: 16,
+    },
+    reviewsModalHeader: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        marginBottom: 8,
+    },
+    reviewsModalCloseBtn: {
+        paddingRight: 16,
+    },
+    reviewsModalCloseBtnText: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 14,
+        lineHeight: 20,
+        color: theme.colors.blue,
+    },
+    banners: {
+        width: '100%',
+        marginBottom: -24,
+        paddingHorizontal: 8,
+    },
+    bannerImage: {
+        borderRadius: 20,
+    },
+    bannerInfo: {
+        position: 'absolute',
+        borderRadius: 20,
+        zIndex: 1000
+    },
+    bannerInfoTitle: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 16,
+        lineHeight: 24,
+        color: theme.colors.black,
+        paddingLeft: 16,
+        paddingBottom: 16,
+        width: '90%',
+        position: 'absolute',
+        bottom: 0,
+    },
+    bannerInfoSubTitle: {
+        fontFamily: 'Inter-Regular',
+        fontSize: 12,
+        lineHeight: 18,
+        color: theme.colors.white,
+    },
+    noData: {
+
+        flex: 1,
+        backgroundColor: theme.colors.white,
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingHorizontal: 16,
+
+        title: {
+            fontFamily: 'Inter-Regular',
+            fontSize: 18,
+            lineHeight: 30,
+            color: theme.colors.black,
+            textAlign: 'center',
+            marginBottom: 16,
+        },
+
+        subtitle: {
+            fontFamily: 'Inter-Regular',
+            fontSize: 14,
+            lineHeight: 30,
+            color: theme.colors.black,
+            textAlign: 'center',
+            marginBottom: 16,
+        }
+    },
+    goBackBtn: {
+        position: 'absolute',
+        bottom: 15,
+        right: 15,
+        width: 100,
+        height: 40,
+        borderRadius: 50,
+    }
+});

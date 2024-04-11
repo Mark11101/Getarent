@@ -1,0 +1,14 @@
+{
+  "MANUAL": {
+    "value": "MANUAL",
+    "label": "Механическая",
+    "second_label": "МТ",
+    "third_label": "Механика"
+  },
+  "AUTOMATIC": {
+    "value": "AUTOMATIC",
+    "label": "Автоматическая",
+    "second_label": "АТ",
+    "third_label": "Автомат"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"CLIMATE_CONTROL": "Кондиционер / климат-контроль",
+	"HEATED_SEATS": "Cидения с подогревом",
+	"GPS": "GPS-навигация",
+	"SUNROOF": "Люк на крыше",
+	"CRUISE_CONTROL": "Круиз-контроль",
+	"USB": "USB - разъем",
+	"BLUETOOTH": "Bluetooth",
+	"HEATED_STEERING_WHEEL": "Обогрев руля",
+	"HEATED_WINDSHIELD": "Обогрев лобового стекла",
+	"SOS_BUTTON": "Кнопка SOS",
+	"TIREDNESS_RECOGNITION": "Контроль усталости водителя",
+	"220V_SOCKET": "Розетка 220V",
+	"SPARE_WHEEL": "Запасное колесо",
+	"DRIVER_KIT": "Набор водителя",
+	"AIRBAGS": "Подушки безопасности",
+	"12V_SOCKET": "Розетка 12V",
+	"TIRES_FOR_SEASON": "Сезонная резина"
+}

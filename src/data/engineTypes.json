@@ -1,0 +1,18 @@
+{
+  "ELECTRO": {
+    "value": "ELECTRO",
+    "label": "Электро"
+  },
+  "HYBRID": {
+    "value": "HYBRID",
+    "label": "Гибрид"
+  },
+  "GASOLINE": {
+    "value": "GASOLINE",
+    "label": "Бензин"
+  },
+  "DIESEL": {
+    "value": "DIESEL",
+    "label": "Дизель"
+  }
+}

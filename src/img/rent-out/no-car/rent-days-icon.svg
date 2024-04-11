@@ -1,0 +1,15 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 3734">
+<rect width="26" height="26" rx="8" fill="#8F9BB3"/>
+<g id="Mask group">
+<path id="Rectangle 882" d="M9.5 6H12.625C14.2819 6 15.625 7.34315 15.625 9V12.125H12.5C10.8431 12.125 9.5 10.7819 9.5 9.125V6Z" fill="url(#paint0_linear_7138_5020)"/>
+<path id="Rectangle 883" d="M6 18.875C6 16.1136 8.23858 13.875 11 13.875H15.875C18.6364 13.875 20.875 16.1136 20.875 18.875V20H6V18.875Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_7138_5020" x1="15.625" y1="6" x2="10.2145" y2="13.8749" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>

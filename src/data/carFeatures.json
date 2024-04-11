@@ -1,0 +1,29 @@
+{
+  "CHILD_SEAT": {
+    "label": "Детское кресло"
+  },
+  "NAVIGATOR": {
+    "label": "Навигатор"
+  },
+  "REGISTRATOR": {
+    "label": "Регистратор"
+  },
+  "RADAR_DETECTOR": {
+    "label": "Антирадар"
+  },
+  "ROOF_RACK": {
+    "label": "Багажник на крыше"
+  },
+  "FRIDGE": {
+    "label": "Холодильник"
+  },
+  "BIKE_RACK": {
+    "label": "Крепление для велосипеда"
+  },
+  "SNOWBOARD_RACK": {
+    "label": "Крепление для сноуборда"
+  },
+  "SKIING_RACK": {
+    "label": "Крепление для лыж"
+  }
+}

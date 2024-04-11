@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBdZyMa6AnlEBOkh7x3BZW9m0cFCX2V4So</string>
+	<key>BUNDLE_ID</key>
+	<string>ru.getarent.app</string>
+	<key>CLIENT_ID</key>
+	<string>490008049129-4ksa0scb7beeo3jr4k6dujits3qa1ms9.apps.googleusercontent.com</string>
+	<key>GCM_SENDER_ID</key>
+	<string>490008049129</string>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:490008049129:ios:d3ab34647899cd8c31c778</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>PROJECT_ID</key>
+	<string>getarent-dev</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.490008049129-4ksa0scb7beeo3jr4k6dujits3qa1ms9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>getarent-dev.appspot.com</string>
+</dict>
+</plist>
